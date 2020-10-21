@@ -21,7 +21,7 @@ There are only four methods in this library. In order to simplify the library, a
 3. `encrypt_message(message, public_key)`. Takes the message and public key and return a cipher text.
 4. `decrypt_meesage(cipher_text, private_key)`. Takes the cipher text and private key and returns the cipher text.
 
-##Examples
+## Examples
 
 Basic example:
 ```python

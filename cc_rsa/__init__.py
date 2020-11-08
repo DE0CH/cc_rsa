@@ -4,7 +4,7 @@ import base64
 
 
 def new_private_key():
-    private_key = RSA.generate(2048)
+    private_key = RSA.generate(1024)
     return base64.urlsafe_b64encode(private_key.exportKey(format='DER')).decode('ascii')
 
 

@@ -25,5 +25,5 @@ def decrypt_message():
 
 
 if __name__ == '__main__':
-    decrypt_message()
+    get_new_keys()
 
